@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Card Reading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tarot Card Reading</h1>
+            <p class="subtitle">Choose your spread and discover your cards</p>
+        </header>
+
+        <!-- Spread Selection -->
+        <div id="spread-selection" class="spread-selection">
+            <h2>Select Your Spread</h2>
+            <div class="button-group">
+                <button id="one-card-btn" class="spread-btn">
+                    <span class="btn-title">One Card</span>
+                    <span class="btn-desc">Single card reading</span>
+                </button>
+                <button id="four-card-btn" class="spread-btn">
+                    <span class="btn-title">Four Card</span>
+                    <span class="btn-desc">Past, Present, Future, Outcome</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Card Display Area -->
+        <div id="card-area" class="card-area hidden">
+            <div id="position-labels" class="position-labels"></div>
+            <div id="cards-container" class="cards-container"></div>
+        </div>
+
+        <!-- Reading Display -->
+        <div id="reading-area" class="reading-area hidden">
+            <h2>Your Reading</h2>
+            <div id="card-descriptions" class="card-descriptions"></div>
+        </div>
+
+        <!-- Reset Button -->
+        <div id="reset-container" class="reset-container hidden">
+            <button id="reset-btn" class="reset-btn">New Reading</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Wanderer",
+      "image": "cards/images/TheWanderer.png",
+      "keywords": ["journey", "exploration", "discovery", "seeking"],
+      "upright": "The Wanderer represents a journey into the unknown, exploration of new paths, and the courage to seek truth beyond familiar boundaries. This card encourages you to embrace adventure and trust your path.",
+      "reversed": "Reversed, The Wanderer can indicate feeling lost, aimless wandering, or fear of stepping into the unknown."
+    },
+    {
+      "id": 1,
+      "name": "The Tower",
+      "image": "cards/images/TheTower.png",
+      "keywords": ["sudden change", "upheaval", "revelation", "breakthrough"],
+      "upright": "The Tower represents sudden change, upheaval, and revelation. Old structures must crumble for new ones to be built. This is a powerful transformation card.",
+      "reversed": "Reversed, The Tower can indicate avoiding necessary change, fear of transformation, or delaying the inevitable."
+    },
+    {
+      "id": 2,
+      "name": "The Star",
+      "image": "cards/images/theStar.png",
+      "keywords": ["hope", "inspiration", "guidance", "renewal"],
+      "upright": "The Star represents hope, inspiration, divine guidance, and spiritual renewal. After darkness comes light, and this card brings optimism and clarity.",
+      "reversed": "Reversed, The Star can indicate loss of faith, feeling disconnected from purpose, or spiritual doubt."
+    },
+    {
+      "id": 3,
+      "name": "The Hollow",
+      "image": "cards/images/TheHollow.png",
+      "keywords": ["emptiness", "void", "potential", "stillness"],
+      "upright": "The Hollow represents emptiness that holds infinite potential, the void before creation, and the power of stillness. Sometimes we must empty ourselves to be filled anew.",
+      "reversed": "Reversed, The Hollow can indicate feeling empty without purpose, depression, or inability to move forward."
+    },
+    {
+      "id": 4,
+      "name": "The Mother",
+      "image": "cards/images/TheMother.png",
+      "keywords": ["nurturing", "abundance", "protection", "creation"],
+      "upright": "The Mother represents nurturing energy, abundance, protection, and the power of creation. She embodies unconditional love and the cycle of life.",
+      "reversed": "Reversed, The Mother can indicate smothering, codependency, or neglecting self-care."
+    },
+    {
+      "id": 5,
+      "name": "The Lovers",
+      "image": "cards/images/TheLovers.png",
+      "keywords": ["love", "union", "choice", "harmony"],
+      "upright": "The Lovers represent deep connection, meaningful relationships, important choices, and harmony. This card speaks of union and alignment of values.",
+      "reversed": "Reversed, The Lovers can indicate disharmony, difficult choices, or misalignment in relationships."
+    },
+    {
+      "id": 6,
+      "name": "The Sorceress",
+      "image": "cards/images/theSorceress.png",
+      "keywords": ["magic", "power", "wisdom", "transformation"],
+      "upright": "The Sorceress represents magical power, deep wisdom, and the ability to transform reality. She knows the secrets of the universe and wields them with skill.",
+      "reversed": "Reversed, The Sorceress can indicate manipulation, misuse of power, or blocked creative energy."
+    },
+    {
+      "id": 7,
+      "name": "The High Priestess",
+      "image": "cards/images/TheHighPriestess.png",
+      "keywords": ["intuition", "mystery", "divine feminine", "inner knowing"],
+      "upright": "The High Priestess represents intuition, sacred knowledge, mystery, and the divine feminine. She guards the threshold between the conscious and unconscious realms.",
+      "reversed": "Reversed, The High Priestess can indicate disconnection from intuition, hidden agendas, or repressed feelings."
+    },
+    {
+      "id": 8,
+      "name": "Justice",
+      "image": "cards/images/Justice.png",
+      "keywords": ["balance", "fairness", "truth", "karma"],
+      "upright": "Justice represents balance, fairness, truth, and karmic consequences. This card reminds us that all actions have reactions, and truth will prevail.",
+      "reversed": "Reversed, Justice can indicate unfairness, bias, dishonesty, or avoiding accountability."
+    }
+  ],
+  "spreads": {
+    "one-card": {
+      "name": "Single Card",
+      "positions": ["Your Card"]
+    },
+    "four-card": {
+      "name": "Four Card Spread",
+      "positions": ["Past", "Present", "Future", "Outcome"]
+    }
+  }
+}
