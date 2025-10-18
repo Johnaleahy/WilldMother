@@ -6,47 +6,29 @@
 
 body {
     font-family: 'Georgia', serif;
-    background: linear-gradient(135deg, #081820 0%, #1a4a55 50%, #0d1f28 100%);
-    color: #e8dcc0;
+    background: linear-gradient(135deg, #0d1520 0%, #1a2838 50%, #0d1520 100%);
+    color: #ffffff;
     min-height: 100vh;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 40px;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 3rem;
-    color: #d4b873;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 20px rgba(91, 164, 196, 0.3);
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    font-size: 1.2rem;
-    color: #7cb8d4;
-    font-style: italic;
+    width: 100%;
 }
 
 /* Spread Selection */
 .spread-selection {
     text-align: center;
-    margin: 40px 0;
-}
-
-.spread-selection h2 {
-    color: #d4b873;
-    margin-bottom: 30px;
-    font-size: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-group {
@@ -56,38 +38,31 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.spread-btn {
-    background: linear-gradient(145deg, #2d5f6d, #1a4a55);
-    border: 2px solid #c9a961;
-    color: #e8dcc0;
-    padding: 30px 40px;
-    font-size: 1.1rem;
+.spread-btn-img {
+    background: transparent;
+    border: none;
+    padding: 0;
     cursor: pointer;
-    border-radius: 15px;
     transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-width: 200px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    width: 100%;
 }
 
-.spread-btn:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(201, 169, 97, 0.4);
-    background: linear-gradient(145deg, #3a7280, #2d5f6d);
+.spread-btn-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
 }
 
-.btn-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #d4b873;
+.spread-btn-img:hover {
+    transform: translateY(-5px) scale(1.02);
 }
 
-.btn-desc {
-    font-size: 0.9rem;
-    color: #7cb8d4;
-    font-style: italic;
+.spread-btn-img:hover img {
+    box-shadow: 0 8px 25px rgba(74, 123, 167, 0.8);
 }
 
 /* Card Area */
@@ -260,17 +235,8 @@ header h1 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
-    }
-
-    .spread-btn {
-        min-width: 150px;
-        padding: 20px 30px;
+    .spread-btn-img {
+        max-width: 250px;
     }
 
     .card {
@@ -296,6 +262,11 @@ header h1 {
     .button-group {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
+    }
+
+    .spread-btn-img {
+        max-width: 200px;
     }
 
     .card {
