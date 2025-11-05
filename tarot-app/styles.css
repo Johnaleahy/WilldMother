@@ -160,6 +160,22 @@ body {
     border-radius: 15px;
 }
 
+.reading-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.reading-column {
+    flex: 1;
+    min-width: 0;
+}
+
+.reflections-column {
+    flex: 0 0 400px;
+    min-width: 300px;
+}
+
 .reading-area h2 {
     color: #d4b873;
     text-align: center;
@@ -202,6 +218,35 @@ body {
 .card-description .meaning {
     color: #e8dcc0;
     line-height: 1.6;
+}
+
+/* Reflections Section */
+.reflections-textarea {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    background: rgba(13, 21, 32, 0.6);
+    border: 2px solid #7cb8d4;
+    border-radius: 8px;
+    padding: 15px;
+    color: #e8dcc0;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    resize: vertical;
+    transition: all 0.3s ease;
+}
+
+.reflections-textarea:focus {
+    outline: none;
+    border-color: #d4b873;
+    background: rgba(13, 21, 32, 0.8);
+    box-shadow: 0 0 15px rgba(212, 184, 115, 0.3);
+}
+
+.reflections-textarea::placeholder {
+    color: #7cb8d4;
+    opacity: 0.6;
 }
 
 /* Reset Button */
@@ -255,6 +300,21 @@ body {
 
     .card-description {
         padding: 15px;
+    }
+
+    .reading-container {
+        flex-direction: column;
+    }
+
+    .reflections-column {
+        flex: 1;
+        width: 100%;
+    }
+
+    .reflections-textarea {
+        font-size: 0.9rem;
+        padding: 12px;
+        min-height: 200px;
     }
 }
 

@@ -4,21 +4,33 @@ const cardsData = {
     {
       "id": 0,
       "name": "The Wanderer",
+      "subtitle": "(formerly The Fool)",
       "image": "cards/images/TheWanderer.png",
       "keywords": ["journey", "exploration", "discovery", "seeking"],
-      "upright": "The Wanderer represents a journey into the unknown, exploration of new paths, and the courage to seek truth beyond familiar boundaries. This card encourages you to embrace adventure and trust your path.",
-      "reversed": "Reversed, The Wanderer can indicate feeling lost, aimless wandering, or fear of stepping into the unknown."
+      "description": "A fox perches on the edge of a mossy cliff, eyes fixed on a glowing star that cuts through the indigo night. At her feet lies a weathered, crumpled map — unreadable, or perhaps no longer needed. Slung across her back is a small bindle bag, tied tight with mystery. She does not move yet. But she is listening. The stillness before the first step is sacred, and she knows that the path will not appear until she dares to walk it.",
+      "upright": "The Wanderer represents the beginning of a new journey — one that demands courage, trust, and surrender to the unknown. This card asks you to move forward even if the way ahead is unclear. Like the fox, you are guided by something deeper than logic. You may not have the full picture, but your instincts are sharp, and your spirit is ready. This is a moment of becoming, a quiet rebellion against certainty in favor of truth. Say yes to the invitation life is offering you, even if it comes without a map.",
+      "reversed": "When The Wanderer appears reversed, it may signal hesitation, avoidance, or a refusal to begin. You might be mistaking stillness for safety, or mistaking recklessness for bravery. There is a difference between moving with presence and running without direction. This card asks: Are you leaping from alignment, or from fear? You don't need to know everything — but you do need to be honest about why you're moving, or why you're not."
     },
     {
       "id": 1,
       "name": "The Tower",
       "image": "cards/images/TheTower.png",
       "keywords": ["sudden change", "upheaval", "revelation", "breakthrough"],
-      "upright": "The Tower represents sudden change, upheaval, and revelation. Old structures must crumble for new ones to be built. This is a powerful transformation card.",
-      "reversed": "Reversed, The Tower can indicate avoiding necessary change, fear of transformation, or delaying the inevitable."
+      "description": "A raven perches on the broken stones of a fallen tower, wings folded in stillness as smoke and starlight swirl behind it. At the base of the ruins lies a shattered mirror, its surface cracked like lightning. Yet within those fractures, a single radiant star shines through. The structure has fallen, but something eternal remains — and it is calling you to see more clearly than ever before.",
+      "upright": "The Tower arrives as a reckoning. A collapse of illusion, a rupture of the old structure that no longer serves your truth. It is not punishment. It is revelation. Like the raven, this card invites you to observe the ruins without fear, and to listen for what speaks. What breaks here is not your essence — only the shell that contained it. This is liberation through disruption, a cosmic invitation to rebuild something more honest and alive.",
+      "reversed": "When reversed, The Tower may reflect resistance to change, denial of what is crumbling, or fear of what comes next. You may be clinging to what feels familiar, even if it's long outgrown. This card suggests a quiet unraveling, an internal implosion rather than an external shock. It can also signal the aftermath — the pause after the fall, when clarity starts to bloom through the cracks. What have you been avoiding seeing? And what might open if you finally look?"
     },
     {
       "id": 2,
+      "name": "The Star",
+      "image": "cards/images/theStar.png",
+      "keywords": ["hope", "inspiration", "guidance", "renewal"],
+      "description": "A lone wolf lifts her voice to the heavens, howling beneath a sky drenched in stars. At her feet rests a bowl of still water, reflecting starlight. She is surrounded by wildflowers — quiet witnesses to her longing and her light. This is not the cry of despair, but of remembrance. She sings not because hope is lost, but because she is listening. And somewhere in the vast sky, something answers back.",
+      "upright": "The Star is a card of hope, inspiration, divine guidance, and spiritual renewal. After darkness comes light, and this card brings optimism and clarity.",
+      "reversed": "Reversed, The Star can indicate loss of faith, feeling disconnected from purpose, or spiritual doubt."
+    },
+    {
+      "id": 3,
       "name": "The Hollow",
       "image": "cards/images/TheHollow.png",
       "keywords": ["emptiness", "void", "potential", "stillness"],
@@ -26,44 +38,51 @@ const cardsData = {
       "reversed": "Reversed, The Hollow can indicate feeling empty without purpose, depression, or inability to move forward."
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "The Mother",
+      "subtitle": "(formerly The Empress)",
       "image": "cards/images/TheMother.png",
       "keywords": ["nurturing", "abundance", "protection", "creation"],
-      "upright": "The Mother represents nurturing energy, abundance, protection, and the power of creation. She embodies unconditional love and the cycle of life.",
-      "reversed": "Reversed, The Mother can indicate smothering, codependency, or neglecting self-care."
-    },
-    {
-      "id": 4,
-      "name": "The Lovers",
-      "image": "cards/images/TheLovers.png",
-      "keywords": ["love", "union", "choice", "harmony"],
-      "upright": "The Lovers represent deep connection, meaningful relationships, important choices, and harmony. This card speaks of union and alignment of values.",
-      "reversed": "Reversed, The Lovers can indicate disharmony, difficult choices, or misalignment in relationships."
+      "description": "A lioness rests in the tall grass, her eyes steady and full of knowing. Three cubs curl around her, safe in the warmth of her body and the quiet command of her presence. She wears a crown of antlers and blooming flowers — symbols of both wild instinct and nurtured beauty. Behind her, a golden sun-shaped shield leans against the earth. She is the pulse of life, both fierce and tender. She creates, protects, and sustains.",
+      "upright": "The Mother is a card of creation, embodiment, and deep nourishment. She invites you to root into your own cycles of fertility — whether literal, creative, emotional, or spiritual. This is a time to honor what you are growing. Tend to it with devotion. Let your softness be a strength, your boundaries a gift. The Mother offers abundance that doesn't clamor, beauty that doesn't seek approval. You are enough. What you carry is sacred. Let it flourish.",
+      "reversed": "Reversed, The Mother may speak to depletion, overgiving, or disconnection from your creative self. You may be pouring energy into others without replenishing your own well. Or perhaps you doubt the worth of what you are bringing to life. This card gently calls you home. What nurtures you? What needs to be reclaimed? Let yourself receive. You do not need to hold everything. You are allowed to rest. You are allowed to bloom in your own time."
     },
     {
       "id": 5,
-      "name": "The Sorceress",
-      "image": "cards/images/theSorceress.png",
-      "keywords": ["magic", "power", "wisdom", "transformation"],
-      "upright": "The Sorceress represents magical power, deep wisdom, and the ability to transform reality. She knows the secrets of the universe and wields them with skill.",
-      "reversed": "Reversed, The Sorceress can indicate manipulation, misuse of power, or blocked creative energy."
+      "name": "The Lovers",
+      "image": "cards/images/TheLovers.png",
+      "keywords": ["love", "union", "choice", "harmony"],
+      "description": "Two foxes meet in the hush of night, their noses nearly touching. One is bathed in soft moonlight, bright and luminous. The other lingers in shadow, deep-eyed and steady. Around them bloom red flowers, pulsing with life, while a crescent moon rises above — a witness to the meeting of dualities. This is more than romance. This is reflection. A sacred choice. A call to intimacy, not just with another, but with the parts of yourself you are learning to love.",
+      "upright": "The Lovers invites you into alignment — with your values, your desires, and your connections. It speaks of sacred partnership, but also of inner harmony. Something in your life is asking for wholehearted presence. Whether in a relationship or a decision, this card calls you to choose with clarity and heart. The foxes remind you: true connection honors both light and shadow. There is beauty in contrast, power in mutual devotion. Choose not what is easiest, but what is truest.",
+      "reversed": "When reversed, The Lovers may signal misalignment, confusion, or an avoidance of intimacy. You may be facing a choice but unsure of what truly resonates. Or perhaps a relationship is reflecting back the parts of yourself you struggle to accept. This card asks: where are you out of integrity with yourself? Reconnection begins with honesty. Look gently at what you're resisting. Sometimes the most loving act is choosing yourself first — not out of separation, but out of sacred self-respect."
     },
     {
       "id": 6,
-      "name": "The High Priestess",
-      "image": "cards/images/TheHighPriestess.png",
-      "keywords": ["intuition", "mystery", "divine feminine", "inner knowing"],
-      "upright": "The High Priestess represents intuition, sacred knowledge, mystery, and the divine feminine. She guards the threshold between the conscious and unconscious realms.",
-      "reversed": "Reversed, The High Priestess can indicate disconnection from intuition, hidden agendas, or repressed feelings."
+      "name": "The Sorceress",
+      "subtitle": "(formerly The Magician)",
+      "image": "cards/images/theSorceress.png",
+      "keywords": ["magic", "power", "wisdom", "transformation"],
+      "description": "Under a sky glittering with stars, a black cat lowers her paw toward the earth, tracing a glowing spiral into the soil. The air hums with ancient magic. Around her, the wildflowers hold their breath. She doesn't need an altar — her body is the ritual, her focus the spell. She is aligned. She knows her power. And she chooses to wield it with intention.",
+      "upright": "The Sorceress is a card of embodied magic, clarity, and creative will. It invites you to root into your personal power and remember: you already hold what you need. This card signals a time to act, speak, shape, and manifest — but not from ego. From alignment. The cat teaches you to move deliberately, to trust the unseen, to know that every gesture sends a ripple. What you channel now can become something real. Just remember to ground your magic in truth.",
+      "reversed": "When reversed, The Sorceress may reveal scattered energy, self-doubt, or misaligned intention. You might be questioning your power or grasping at control instead of creating from the center. This card calls you back to presence. Are you casting from clarity, or from fear? Have you forgotten your own influence? You don't need to force what wants to flow. Real power is quiet, grounded, and precise. Return to the spiral. Begin again from the inside out."
     },
     {
       "id": 7,
+      "name": "The High Priestess",
+      "image": "cards/images/TheHighPriestess.png",
+      "keywords": ["intuition", "mystery", "divine feminine", "inner knowing"],
+      "description": "A white hare sits still beside a moonlit pool, her fur etched with ancient runes. A golden scroll rests at her feet, sealed and silent. A sheer white veil drifts across her ears like mist, catching the light of the full moon above. She says nothing, yet she sees everything. The High Priestess does not speak to be heard. She listens to what most ignore — the subtle, the sacred, the unseen.",
+      "upright": "The High Priestess is a guide of inner wisdom, sacred knowledge, and deep intuition. She calls you to turn inward, to listen before you speak, and to trust what you feel even if it defies logic. There is power in the pause, in the questions that haven't been answered yet. Like the hare, you are invited to hold stillness and sensitivity as strengths. You already hold the scroll — the answers are within. Trust yourself. The mystery is unfolding.",
+      "reversed": "When reversed, The High Priestess may point to disconnection from intuition, ignoring your inner knowing, or fear of what lies beneath the surface. You may be rushing to act when what's really needed is stillness and trust. Or you might be hiding from your own depth, afraid of what it will reveal. This card urges gentle return. Quiet the noise. Hold space for the unknown. What you seek is not lost — it's simply waiting for you to get quiet enough to hear it."
+    },
+    {
+      "id": 8,
       "name": "Justice",
       "image": "cards/images/Justice.png",
       "keywords": ["balance", "fairness", "truth", "karma"],
-      "upright": "Justice represents balance, fairness, truth, and karmic consequences. This card reminds us that all actions have reactions, and truth will prevail.",
-      "reversed": "Reversed, Justice can indicate unfairness, bias, dishonesty, or avoiding accountability."
+      "description": "An owl sits poised between stone pillars beneath a sky filled with stars. Her eyes do not waver. Above her, a scale holds two truths — a feather and a metal sphere — perfectly balanced. Before her rests a golden chalice etched with sacred symbols, and an ancient scroll lies at her feet. Nothing here is accidental. Everything has weight. Justice sees all, not to judge, but to restore what is real.",
+      "upright": "Justice asks you to meet the moment with integrity, clarity, and full presence. It is a card of cause and consequence — not punishment, but balance. You are being invited to take responsibility for your actions, your choices, and the truth you carry. The owl sees what is hidden. Let this be a call to see clearly, to speak honestly, and to align your life with your values. There is no need for force. When you live in truth, balance returns naturally.",
+      "reversed": "When reversed, Justice may reflect imbalance, denial, or dishonesty — whether toward others or within yourself. You may be avoiding accountability or trapped in cycles of blame. This card asks: where are you out of alignment? Where are you sacrificing truth for comfort? The balance can't be forced, but it can be restored. Begin with one honest step. One clear act. One returned feather to the scale."
     }
   ],
   "spreads": {
@@ -93,6 +112,7 @@ const readingArea = document.getElementById('reading-area');
 const cardDescriptions = document.getElementById('card-descriptions');
 const resetContainer = document.getElementById('reset-container');
 const resetBtn = document.getElementById('reset-btn');
+const reflectionsTextarea = document.getElementById('reflections-textarea');
 
 // Shuffle array (Fisher-Yates algorithm)
 function shuffleArray(array) {
@@ -156,12 +176,24 @@ function showCardDescription(index) {
 
     const descriptionElement = document.createElement('div');
     descriptionElement.className = 'card-description';
-    descriptionElement.innerHTML = `
-        <h3>${card.name}</h3>
+
+    // Build the HTML with conditional subtitle and description
+    let html = `<h3>${card.name}`;
+    if (card.subtitle) {
+        html += ` <span style="font-size: 0.8em; font-style: italic; color: #7cb8d4;">${card.subtitle}</span>`;
+    }
+    html += `</h3>
         <div class="position">${position}</div>
-        <div class="keywords"><strong>Keywords:</strong> ${card.keywords.join(', ')}</div>
-        <div class="meaning">${card.upright}</div>
-    `;
+        <div class="keywords"><strong>Keywords:</strong> ${card.keywords.join(', ')}</div>`;
+
+    if (card.description) {
+        html += `<div class="card-scene" style="margin: 15px 0; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; font-style: italic; color: #d4b873; line-height: 1.7;">${card.description}</div>`;
+    }
+
+    html += `<div class="meaning-header" style="margin-top: 15px; font-weight: bold; color: #d4b873;">Upright Meaning</div>
+        <div class="meaning">${card.upright}</div>`;
+
+    descriptionElement.innerHTML = html;
 
     cardDescriptions.appendChild(descriptionElement);
 
@@ -228,6 +260,7 @@ function resetReading() {
     positionLabels.innerHTML = '';
     cardsContainer.innerHTML = '';
     cardDescriptions.innerHTML = '';
+    reflectionsTextarea.value = '';
 }
 
 // Event listeners

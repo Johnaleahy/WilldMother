@@ -28,8 +28,22 @@
 
         <!-- Reading Display -->
         <div id="reading-area" class="reading-area hidden">
-            <h2>Your Reading</h2>
-            <div id="card-descriptions" class="card-descriptions"></div>
+            <div class="reading-container">
+                <div class="reading-column">
+                    <h2>Your Reading</h2>
+                    <div id="card-descriptions" class="card-descriptions"></div>
+                </div>
+
+                <!-- Reflections Section -->
+                <div class="reflections-column">
+                    <h2>Your Reflections</h2>
+                    <textarea
+                        id="reflections-textarea"
+                        class="reflections-textarea"
+                        placeholder="What thoughts, feelings, or insights does this reading bring up for you? Take a moment to reflect..."
+                        rows="6"></textarea>
+                </div>
+            </div>
         </div>
 
         <!-- Reset Button -->
